@@ -1,0 +1,96 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form method="post" action="mailto:yadavpraveen159@gmail.com" enctype="textplain">
+  <div class="container">  
+  <center>  <h1> Students Data Entry Form</h1> </center>  
+  <hr>  
+  <label><b>Student Name</b></label>   
+<input type="text" name="Student Name" placeholder= "Student Name" size="15" required />   
+
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required> 
+      
+<div>  
+<label>   
+<b>Gender :</b>
+</label><br> 
+<input type="radio" value="Boy" name="gender" required> Boy   
+<input type="radio" value="Girl" name="gender" required> Girl    
+
+<br></br>
+
+<div>
+<label>
+<b>Subjects :</b>
+</label><br>
+<input type="checkbox" value="Tamil" name="subjects">Tamil
+<input type="checkbox" value="Telugu" name="subjects">Telugu
+<input type="checkbox" value="English" name="subjects">English
+<input type="checkbox" value="Physics" name="subjects">Physics
+<input type="checkbox" value="Economics" name="subjects">Economics
+
+<br></br>
+
+</div>  
+<label>   
+<b>Comments :</b>  
+<textarea cols="100" rows="8" placeholder= "What Do You Think About Us?" value="comment">  
+</textarea>  
+  
+    <button type="submit" class="registerbtn">Submit</button>   
+<br></br> 
+
+<center>THIS  <i>"Students Data Entry Form"</i>  IS WRITTEN IN HTML BY <b>PRATYUSH KUMAR</b></center>
+
+
+
+</form>  
+</body>  
+</html>  
